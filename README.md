@@ -207,7 +207,3 @@ GitHub scans are capped at **20 files / 100 KB** to prevent resource exhaustion 
 - **Self-scan false positives**: scanning `skill-audit` itself produces false positives because the reference documentation contains examples of the patterns the scanner looks for. The all-skills scan mode automatically skips `skill-audit` for this reason.
 
 ---
-
-## Background
-
-This project was built from the architecture described in [Building A Skill Scanner.md](Building%20A%20Skill%20Scanner.md), which covers the threat taxonomy, YARA-based detection concepts, risk scoring design, and sandboxing strategies in detail.
